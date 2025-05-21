@@ -10,7 +10,7 @@ Bu repo, DEVNOT .NET Konferansı 2025'te gerçekleştirdiğim **"Anatomy of AI"*
 
 ### İçerik
 
-- 📑 Sunum slaytl (`anatomy-of-ai.pptx`)
+- 📑 Sunum slayt (`anatomy-of-ai.pptx`)
 - 💻 Demo projeler (`/Demo`)
 
 
