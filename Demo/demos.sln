@@ -9,15 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_1_Markov_LetterMatrix", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_2_Markov_WordPrediction", "2-Markov\WordPrediction\2_2_Markov_WordPrediction.csproj", "{6D543DEA-D8A0-D282-8D02-9E6EFF108FF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-Embedding_Classification", "3-Embedding_Classification\3_Embedding_Classification.csproj", "{8A0F1DA5-C7C2-05AC-0881-48E8F47D7AD9}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_Rag", "4-Rag\4_Rag.csproj", "{64A7846B-6ECE-1331-822E-B1937B61F540}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_DataExtraction", "5-DataExtraction\5_DataExtraction.csproj", "{84C1175D-1BB6-3682-83FA-3DAAE4E47110}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Embedding_Classification", "6-Classification\3_Embedding_Classification.csproj", "{8A0F1DA5-C7C2-05AC-0881-48E8F47D7AD9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_SmartInputs", "6-SmartInputs\6_SmartInputs.csproj", "{0F2CC41F-8FFF-391A-957E-3B5871F35759}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_SmartInputs", "7-SmartInputs\6_SmartInputs.csproj", "{0F2CC41F-8FFF-391A-957E-3B5871F35759}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_Vision", "8-Vision\7_Vision.csproj", "{0869F8AB-72F6-826C-08DD-A94DC2A058A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_Vision", "7-Vision\7_Vision.csproj", "{0869F8AB-72F6-826C-08DD-A94DC2A058A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
