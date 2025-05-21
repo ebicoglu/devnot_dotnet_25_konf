@@ -1,0 +1,138 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+    color: var(--bs-secondary-color);
+    text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+    text-align: start;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* space between button, audio, and span */
+    margin-bottom: 10px;
+}
+
+.download {
+    width: 100%;
+    border: 1px solid gray;
+    padding: 10px;
+    -ms-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    display: none;
+    margin-bottom: 10px;
+}
+
+#carForm input {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#serverResponse {
+    font-size: 30px;
+    line-height: 1.2;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    min-height: 14rem;
+    overflow-y: auto;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    padding: 5px;
+    color: red;
+}
+
+#status {
+    font-size: 0.8rem;
+}
+
+#carForm {
+    position: relative;
+    flex: 1 0 auto;
+    margin: 10px 15px;
+    padding: 10px;
+}
+
+.loading-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+    border-radius: 10px;
+    margin: -5px;
+    display: none;
+}
+
+.spinner-border {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #0d6efd;
+}
+
+.nav-link {
+    margin-right: 10px;
+    display: inline-block
+}
+
+header {
+    margin-top: 1.5rem;
+}
+
+#autoCompleteTextArea {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 30px;
+}
+
+
+.header-container {
+    min-width: 1150px;
+    background: #3f475f;
+}
+
+    .header-container header {
+        width: 1270px;
+        margin: 0 auto;
+    }
+
+        .header-container header a {
+            color: white;
+            text-decoration: none;
+            border: 2px outset gray;
+            padding: 15px;
+        }
+
+            .header-container header a:hover {
+                font-weight: bold;
+            }

@@ -1,0 +1,76 @@
+﻿@model CarEntity
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="col-md-6">
+              
+            </div>
+            <div class="col-md-3">
+            </div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                        <h1>Sell Your Car 🚗</h1>
+                    </div>
+                    <div class="col">
+                        <button id="btnPaste" class="btn btn-primary">Smart Paste 📋</button>
+                    </div>
+                </div>
+            </div>
+
+            <form id="carForm">
+
+                <div class="form-group mb-3">
+                    <label class="form-label" for="brand">Brand</label>
+                    <input class="form-control" type="text" id="brand" name="brand">
+                </div>
+                <div class="form-group mb-3">
+                    <label class="form-label" for="model">Model</label>
+                    <input class="form-control" type="text" id="model" name="model">
+                </div>
+                <div class="form-group mb-3">
+                    <label class="form-label" for="year">Year</label>
+                    <input class="form-control" type="text" id="year" name="year">
+                </div>
+                <div class="form-group mb-3">
+                    <label class="form-label" for="shift">Shift</label>
+                    <input class="form-control" type="text" id="shift" name="shift">
+                </div>
+
+                <!-- Loading overlay inside the form -->
+                <div class="loading-overlay" id="loadingOverlay">
+                    <div class="spinner-border" role="status"></div>
+                </div>
+            </form>
+
+        </div>
+
+        <div class="col-md-6">
+            <div class="d-inline-flex">
+                <a href="#" class="mx-2">Home</a> > <a href="#" class="mx-2">Vehicles</a>  > <a href="#" class="mx-2">Car</a>  > ...
+            </div>
+            <img src="~/img/cars.png" />
+        </div>
+    </div>
+</div>
+
+<pre class=" mt-5">
+   
+</pre>
+
+<details>
+    <summary>Sample prompt</summary>
+    <p> Oğlum nasılsın, iyi misin evladım?
+        Ben artık şu eski arabayı satmayı düşünüyorum.
+        Yerine şöyle 2023 model, temiz bir Renault Megane alayım diyorum.
+        Malum, yaşlandık artık, manuel vites zor geliyor, elim kolum ağrıyor.
+        Otomatik olsun diyorum, rahat edelim.
+    </p>
+</details>
+
+
+@section Scripts {
+    <script src="~/js/paste.js"></script>
+}

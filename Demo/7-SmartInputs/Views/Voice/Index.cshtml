@@ -1,0 +1,59 @@
+﻿@model CarEntity
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h1>Sell Your Car 🚗</h1>
+
+            <form id="carForm">
+
+                <div class="form-group mb-3">
+                    <label class="form-label" for="brand">Brand</label>
+                    <input class="form-control" type="text" id="brand" name="brand">
+                </div>
+                <div class="form-group mb-3">
+                    <label class="form-label" for="model">Model</label>
+                    <input class="form-control" type="text" id="model" name="model">
+                </div>
+                <div class="form-group mb-3">
+                    <label class="form-label" for="year">Year</label>
+                    <input class="form-control" type="text" id="year" name="year">
+                </div>
+                <div class="form-group mb-3">
+                    <label class="form-label" for="shift">Shift</label>
+                    <input class="form-control" type="text" id="shift" name="shift">
+                </div>
+                
+                <!-- Loading overlay inside the form -->
+                <div class="loading-overlay" id="loadingOverlay">
+                    <div class="spinner-border" role="status"></div>
+                </div>
+            </form>
+
+        </div>
+
+        <div class="col-md-6">
+            <h2>Voice Input 🎤</h2>
+            <div class="mb-3">
+                <div class="controls">
+                    <button id="btnVoiceInput" class="btn btn-primary">Listen ⏺</button>
+                    <audio id="audio" controls></audio>
+                </div>
+
+                <div class="download">
+                    <a id="DownloadLink" download="audio.mp3">audio.mp3</a>
+                    <span id="status"></span>
+                </div>
+
+                <pre id="serverResponse"></pre>
+                <div id="log"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/lame.min.js"></script>
+    <script src="~/js/sprintf.js"></script>
+    <script src="~/js/voice.js"></script>
+}
