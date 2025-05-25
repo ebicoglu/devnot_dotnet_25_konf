@@ -22,3 +22,8 @@ Bu repo, DEVNOT .NET Konferansı 2025'te gerçekleştirdiğim **"Anatomy of AI"*
      ```
 
 ⚠ Eğer OpenAI aboneliğiniz yoksa başka bir ücretli/ücretsiz API kullanabilirsiniz. Bunun için projelerdeki [Microsoft.Extensions.AI.OpenAI](https://www.nuget.org/packages/Microsoft.Extensions.AI.OpenAI/) kütüphanesini AzureAI için [Azure.AI.OpenAI](https://www.nuget.org/packages/Azure.AI.OpenAI) veya local'de çalıştırmak için makinanıza Ollama kurup [Microsoft.Extensions.AI.Ollama](https://www.nuget.org/packages/Microsoft.Extensions.AI.Ollama/) veya [OllamaSharp](https://www.nuget.org/packages/OllamaSharp) paketiyle bağlantı kurabilirsiniz. Microsoft çözümü dışında LangChain kütüphanesi de oldukça iyi ve zengin entegrasyonları ile çok iyi bir alternatif [nuget.org/packages/LangChain](https://www.nuget.org/packages/LangChain/).
+
+
+---
+
+𝕏 Twitter 👉 [x.com/alperebicoglu](https://x.com/alperebicoglu)
